@@ -1,0 +1,11 @@
+import whois
+#w = whois.whois('www.ericabetz.com.au')
+w = whois.whois('ericabetz.com.au')
+#w = whois.whois('www.news.com.au')
+#w = whois.whois('www.google.com')
+print(w)
+print("domain_name:", w.domain_name)
+print("whois_server:", w.whois_server)
+print("creation_date:", w.creation_date)
+print("expiration_date:", w.expiration_date)
+print("city:", w.city)
